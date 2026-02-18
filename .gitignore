@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Playwright specific
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Cucumber reports and logs
+reports/
+screenshots/
+cucumber-report.html
+*.log
+
+# Environment and Secrets
+.env
+.env.local
+.env.test
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

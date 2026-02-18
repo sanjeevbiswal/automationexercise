@@ -1,0 +1,7 @@
+{
+  "default": {
+    "paths": ["./*features/*.feature"],
+    "require": ["steps/*.js", "steps/hooks.js"],
+    "format": ["progress", ["html", "cucumber-report.html"]]
+  }
+}
